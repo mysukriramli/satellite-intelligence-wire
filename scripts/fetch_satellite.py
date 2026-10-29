@@ -85,6 +85,15 @@ def run():
         corridors = json.load(f)
 
     conn = duckdb.connect(DB_FILE)
+
+    # Database Schema Migration: detect and drop legacy v1 table if corridor_id is absent
+    existing_tables = [r[0] for r in conn.execute("SHOW TABLES").fetchall()]
+    if "satellite_scenes" in existing_tables:
+        cols = [r[1] for r in conn.execute("PRAGMA table_info('satellite_scenes')").fetchall()]
+        if "corridor_id" not in cols:
+            print("Detected legacy v1 satellite_scenes table schema. Upgrading table to v2...")
+            conn.execute("DROP TABLE IF EXISTS satellite_scenes")
+
     with open("schema.sql", "r", encoding="utf-8") as f:
         conn.execute(f.read())
 
@@ -92,7 +101,7 @@ def run():
     now_iso = now.isoformat()
     date_str = now.strftime("%Y-%m-%d")
     yesterday_str = (now - timedelta(days=2)).strftime("%Y-%m-%d")
-    date_range = f"{yesterday_str}/{today_str}" if "today_str" in locals() else f"{yesterday_str}/{date_str}"
+    date_range = f"{yesterday_str}/{date_str}"
 
     catalog_url = "https://planetarycomputer.microsoft.com/api/stac/v1"
     catalog = pystac_client.Client.open(catalog_url, modifier=planetary_computer.sign_inplace)
@@ -111,7 +120,7 @@ def run():
 
         # 1. Optical Passes (Sentinel-2 L2A)
         optical_items = query_optical_sentinel2(catalog, bbox, date_range, max_cloud)
-        
+
         # 2. All-Weather Radar SAR Fallback (Sentinel-1 GRD)
         sar_items = []
         if len(optical_items) < 2:
@@ -144,7 +153,6 @@ def run():
                 mgrs_or_orbit = f"ORBIT_{props.get('sat:relative_orbit', 'N/A')}_{props.get('sat:orbit_state', 'IW')}"
                 platform = props.get("platform", "Sentinel-1")
 
-            # Extract canonical asset reference (strip ephemeral SAS query token for deterministic indexing)
             visual_asset = item.assets.get("visual") or item.assets.get("rendered_preview") or {}
             raw_href = visual_asset.href if hasattr(visual_asset, "href") else visual_asset.get("href", "")
             canonical_href = raw_href.split("?")[0] if raw_href else ""
@@ -162,7 +170,6 @@ def run():
             }
             content_hash = compute_sha256(json.dumps(canonical_data, sort_keys=True, separators=(",", ":")))
 
-            # Multi-Cell H3 Polyfill Coverage
             h3_cells = extract_h3_cells_for_bbox([min_lon, min_lat, max_lon, max_lat], H3_RESOLUTION)
 
             existing = conn.execute(f"SELECT content_hash FROM satellite_scenes WHERE scene_id = '{s_id}'").fetchone()
@@ -209,7 +216,6 @@ def run():
                     "h3_cell_count": len(h3_cells)
                 })
 
-                # Automated Spatial Differencing / Change Detection
                 prev_pass = conn.execute(f"""
                     SELECT scene_id, timestamp_utc, cloud_cover_pct
                     FROM satellite_scenes
@@ -263,7 +269,6 @@ def run():
             corridor_scenes.append(record_summary)
             all_indexed_scenes.append(record_summary)
 
-        # Write Corridor Machine Feeds
         with open(os.path.join(CORRIDOR_DIR, f"{c_id}.json"), "w", encoding="utf-8") as f:
             json.dump({
                 "corridor_id": c_id,
@@ -282,7 +287,6 @@ def run():
             for rec in ledger_records:
                 f.write(json.dumps(rec) + "\n")
 
-    # Columnar Parquet Exports
     conn.execute(f"COPY (SELECT * FROM satellite_scenes ORDER BY timestamp_utc DESC) TO '{DATA_DIR}/archive.parquet' (FORMAT PARQUET)")
     conn.execute(f"COPY (SELECT * FROM satellite_scenes ORDER BY timestamp_utc DESC) TO '{EXPORT_DIR}/satellite-scenes.parquet' (FORMAT PARQUET)")
     conn.execute(f"COPY (SELECT * FROM scene_h3_coverage) TO '{EXPORT_DIR}/scene-h3-coverage.parquet' (FORMAT PARQUET)")
