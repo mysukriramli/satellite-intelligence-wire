@@ -1,7 +1,7 @@
 {
   "wire": "satellite-intelligence-wire",
   "schema_version": "2.0.0",
-  "generated_at": "2026-10-29T04:06:33.334399+00:00",
+  "generated_at": "2026-10-29T12:48:03.535496+00:00",
   "source_cursor": "planetary-computer-sentinel2-sentinel1-fusion",
   "freshness_slo_seconds": 86400,
   "artifacts": [
