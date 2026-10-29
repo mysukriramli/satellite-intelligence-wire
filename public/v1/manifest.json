@@ -1,30 +1,34 @@
 {
   "wire": "satellite-intelligence-wire",
-  "schema_version": "1.0.0",
-  "generated_at": "2026-10-29T03:55:49.631270+00:00",
-  "source_cursor": "microsoft-planetary-computer-sentinel-2-l2a",
+  "schema_version": "2.0.0",
+  "generated_at": "2026-10-29T04:06:33.334399+00:00",
+  "source_cursor": "planetary-computer-sentinel2-sentinel1-fusion",
   "freshness_slo_seconds": 86400,
   "artifacts": [
     "today.json",
     "satellite-scenes.parquet",
+    "scene-h3-coverage.parquet",
+    "corridor-deltas.parquet",
     "llms.txt",
     "v1/schema.json",
     "v1/scenes/latest.json",
-    "v1/corridor/malacca-singapore.json"
+    "v1/deltas/today.json"
   ],
   "coverage": {
-    "monitored_corridor": "Strait of Malacca & Singapore",
-    "bbox": [
-      100.0,
-      1.0,
-      104.5,
-      6.0
+    "monitored_corridors": [
+      "strait_of_malacca",
+      "bab_el_mandeb",
+      "strait_of_hormuz",
+      "panama_canal"
     ],
-    "max_cloud_cover": 30.0,
-    "h3_resolution": 6
+    "h3_resolution": 6,
+    "sensors": [
+      "Sentinel-2 L2A Multispectral Optical",
+      "Sentinel-1 GRD Synthetic Aperture Radar"
+    ]
   },
   "limitations": [
-    "Optical satellite coverage subject to equatorial cloud occlusion",
-    "Constrained to Sentinel-2 Level-2A surface reflectance passes"
+    "Optical channels subject to local cloud cover",
+    "Downstream raw asset retrieval requires on-demand client SAS signing via planetary_computer"
   ]
 }

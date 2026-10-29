@@ -1,10 +1,20 @@
 {
   "$schema": "https://json-schema.org/draft-07/schema#",
-  "title": "SatelliteSceneFeed",
+  "title": "SatelliteIntelligenceFeed",
   "type": "object",
   "properties": {
     "scene_id": {
       "type": "string"
+    },
+    "corridor_id": {
+      "type": "string"
+    },
+    "sensor_type": {
+      "type": "string",
+      "enum": [
+        "OPTICAL_SENTINEL2",
+        "RADAR_SAR_SENTINEL1"
+      ]
     },
     "observation_date": {
       "type": "string"
@@ -12,23 +22,17 @@
     "timestamp_utc": {
       "type": "string"
     },
-    "platform": {
-      "type": "string"
-    },
-    "mgrs_tile": {
-      "type": "string"
-    },
-    "h3_index": {
+    "mgrs_or_orbit": {
       "type": "string"
     },
     "cloud_cover_pct": {
       "type": "number"
     },
-    "centroid_lat": {
-      "type": "number"
+    "h3_coverage_count": {
+      "type": "integer"
     },
-    "centroid_lon": {
-      "type": "number"
+    "canonical_asset_href": {
+      "type": "string"
     },
     "thumbnail_url": {
       "type": "string"
@@ -36,8 +40,9 @@
   },
   "required": [
     "scene_id",
+    "corridor_id",
+    "sensor_type",
     "timestamp_utc",
-    "h3_index",
-    "cloud_cover_pct"
+    "canonical_asset_href"
   ]
 }

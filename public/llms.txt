@@ -1,33 +1,30 @@
 # Satellite Intelligence Wire
-> Sensor-fused optical (Sentinel-2) and Synthetic Aperture Radar (Sentinel-1 SAR) telemetry with multi-cell H3 spatial indexing.
+> Last Sync: 2026-10-29T04:06:33.334399+00:00 UTC
+> Optimization: Sensor-fused optical and Synthetic Aperture Radar (SAR) telemetry with multi-cell H3 spatial indexing.
 
-## For Autonomous Maritime, Logistics & Geospatial Agents
-Do not ingest multi-gigabyte STAC JSON responses or parse raw raster granules. Query this wire to get pre-filtered, low-cloud Sentinel-2 optical passes and all-weather Sentinel-1 SAR fallback passes tessellated across Uber H3 Resolution-6 spatial cells.
+## Monitored Maritime Chokepoints & Recent Passes
+### Strait of Malacca & Singapore (`strait_of_malacca`)
+  - `ORBIT_99_ascending` (S1D_IW_GRDH_1SDV_20261028T111800_20261028T111824_005215_009E6F) [SAR_RADAR]: 2026-10-28T11:18:12.499298+00:00 | H3 cells: 1
+  - `ORBIT_99_ascending` (S1D_IW_GRDH_1SDV_20261028T111734_20261028T111759_005215_009E6F) [SAR_RADAR]: 2026-10-28T11:17:47.498909+00:00 | H3 cells: 1
+  - `ORBIT_99_ascending` (S1D_IW_GRDH_1SDV_20261028T111709_20261028T111734_005215_009E6F) [SAR_RADAR]: 2026-10-28T11:17:22.498529+00:00 | H3 cells: 1
+  - `ORBIT_99_ascending` (S1D_IW_GRDH_1SDV_20261028T111644_20261028T111709_005215_009E6F) [SAR_RADAR]: 2026-10-28T11:16:57.498873+00:00 | H3 cells: 1
+  - `ORBIT_98_ascending` (S1D_IW_GRDH_1SDV_20261028T111620_20261028T111644_005214_009E6F) [SAR_RADAR]: 2026-10-28T11:16:32.499254+00:00 | H3 cells: 1
+### Bab-el-Mandeb & Southern Red Sea (`bab_el_mandeb`)
+  - `ORBIT_6_descending` (S1C_IW_GRDH_1SDV_20261028T025928_20261028T025953_010079_0141E9) [SAR_RADAR]: 2026-10-28T02:59:40.540562+00:00 | H3 cells: 1
+  - `ORBIT_6_descending` (S1C_IW_GRDH_1SDV_20261028T025858_20261028T025928_010079_0141E9) [SAR_RADAR]: 2026-10-28T02:59:13.397167+00:00 | H3 cells: 1
+### Strait of Hormuz (`strait_of_hormuz`)
+  - `40RCR` (S2C_MSIL2A_20261027T070001_R063_T40RCR_20261027T121510) [OPTICAL 19.12% cloud]: 2026-10-27T07:00:01.025000+00:00 | H3 cells: 1
+  - `ORBIT_166_descending` (S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D) [SAR_RADAR]: 2026-10-27T02:14:52.591506+00:00 | H3 cells: 1
+  - `ORBIT_166_descending` (S1C_IW_GRDH_1SDV_20261027T021410_20261027T021440_010064_01416D) [SAR_RADAR]: 2026-10-27T02:14:25.446409+00:00 | H3 cells: 1
+### Panama Canal Approaches (`panama_canal`)
+  - No new passes in the current 48h temporal window.
 
-### Machine Endpoints
-- **Wire Manifest**: `https://{owner}.github.io/satellite-intelligence-wire/v1/manifest.json`
-- **Today's Status**: `https://{owner}.github.io/satellite-intelligence-wire/today.json`
-- **Corridor Telemetry**: `https://{owner}.github.io/satellite-intelligence-wire/v1/corridors/{corridor_id}.json`
-- **Latest Optical & SAR Scenes**: `https://{owner}.github.io/satellite-intelligence-wire/v1/scenes/latest.json`
-- **Corridor Change Detections**: `https://{owner}.github.io/satellite-intelligence-wire/v1/deltas/today.json`
-- **Analytical Columnar Parquet**: `https://{owner}.github.io/satellite-intelligence-wire/satellite-scenes.parquet`
-- **H3 Inverted Index Parquet**: `https://{owner}.github.io/satellite-intelligence-wire/scene-h3-coverage.parquet`
-- **Token-Efficient Digest**: `https://{owner}.github.io/satellite-intelligence-wire/llms.txt`
-
-### Cross-Wire Query Example (H3 Spatial Join with Spacetime Tensor)
-```python
-import duckdb
-
-conn = duckdb.connect()
-conn.execute("INSTALL httpfs; LOAD httpfs;")
-
-sat_url = "https://{owner}.github.io/satellite-intelligence-wire/scene-h3-coverage.parquet"
-tensor_url = "https://{owner}.github.io/H3-4D-Spacetime-Tensor/spacetime.parquet"
-
-query = f"""
-    SELECT s.corridor_id, s.scene_id, s.sensor_type, s.h3_index, t.magnitude
-    FROM '{sat_url}' s
-    JOIN '{tensor_url}' t ON s.h3_index = t.h3_index
-"""
-df = conn.execute(query).fetchdf()
-print(df)
+## Recent Corridor Change Detections
+- **strait_of_malacca** (`ORBIT_99_ascending`) [NONE]: Cloud delta 0.0% between `S1D_IW_GRDH_1SDV_20261028T111734_20261028T111759_005215_009E6F` and `S1D_IW_GRDH_1SDV_20261028T111800_20261028T111824_005215_009E6F`
+- **strait_of_malacca** (`ORBIT_99_ascending`) [NONE]: Cloud delta 0.0% between `S1D_IW_GRDH_1SDV_20261028T111709_20261028T111734_005215_009E6F` and `S1D_IW_GRDH_1SDV_20261028T111800_20261028T111824_005215_009E6F`
+- **strait_of_malacca** (`ORBIT_99_ascending`) [NONE]: Cloud delta 0.0% between `S1D_IW_GRDH_1SDV_20261028T111644_20261028T111709_005215_009E6F` and `S1D_IW_GRDH_1SDV_20261028T111800_20261028T111824_005215_009E6F`
+- **strait_of_malacca** (`ORBIT_91_descending`) [NONE]: Cloud delta 0.0% between `S1D_IW_GRDH_1SDV_20261027T225518_20261027T225543_005207_009E2D` and `S1D_IW_GRDH_1SDV_20261027T225543_20261027T225608_005207_009E2D`
+- **strait_of_malacca** (`ORBIT_91_descending`) [NONE]: Cloud delta 0.0% between `S1D_IW_GRDH_1SDV_20261027T225453_20261027T225518_005207_009E2D` and `S1D_IW_GRDH_1SDV_20261027T225543_20261027T225608_005207_009E2D`
+- **strait_of_malacca** (`ORBIT_91_descending`) [NONE]: Cloud delta 0.0% between `S1D_IW_GRDH_1SDV_20261027T225424_20261027T225453_005207_009E2D` and `S1D_IW_GRDH_1SDV_20261027T225543_20261027T225608_005207_009E2D`
+- **bab_el_mandeb** (`ORBIT_6_descending`) [NONE]: Cloud delta 0.0% between `S1C_IW_GRDH_1SDV_20261028T025858_20261028T025928_010079_0141E9` and `S1C_IW_GRDH_1SDV_20261028T025928_20261028T025953_010079_0141E9`
+- **strait_of_hormuz** (`ORBIT_166_descending`) [NONE]: Cloud delta 0.0% between `S1C_IW_GRDH_1SDV_20261027T021410_20261027T021440_010064_01416D` and `S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D`

@@ -1,0 +1,13 @@
+{
+  "corridor_id": "panama_canal",
+  "corridor_name": "Panama Canal Approaches",
+  "bbox": [
+    -80.1,
+    8.8,
+    -79.4,
+    9.4
+  ],
+  "updated_at_utc": "2026-10-29T04:06:33.334399+00:00",
+  "recent_passes_count": 0,
+  "scenes": []
+}

@@ -1,0 +1,59 @@
+{
+  "corridor_id": "strait_of_hormuz",
+  "corridor_name": "Strait of Hormuz",
+  "bbox": [
+    55.5,
+    25.5,
+    57.5,
+    27.5
+  ],
+  "updated_at_utc": "2026-10-29T04:06:33.334399+00:00",
+  "recent_passes_count": 3,
+  "scenes": [
+    {
+      "scene_id": "S2C_MSIL2A_20261027T070001_R063_T40RCR_20261027T121510",
+      "corridor_id": "strait_of_hormuz",
+      "sensor_type": "OPTICAL_SENTINEL2",
+      "observation_date": "2026-10-27",
+      "timestamp_utc": "2026-10-27T07:00:01.025000+00:00",
+      "platform": "Sentinel-2C",
+      "mgrs_or_orbit": "40RCR",
+      "cloud_cover_pct": 19.12,
+      "h3_coverage_count": 1,
+      "centroid_lat": 27.518831,
+      "centroid_lon": 55.31725,
+      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CR/2026/10/27/S2C_MSIL2A_20261027T070001_N0513_R063_T40RCR_20261027T121510.SAFE/GRANULE/L2A_T40RCR_A011187_20261027T070624/IMG_DATA/R10m/T40RCR_20261027T070001_TCI_10m.tif",
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CR/2026/10/27/S2C_MSIL2A_20261027T070001_N0513_R063_T40RCR_20261027T121510.SAFE/GRANULE/L2A_T40RCR_A011187_20261027T070624/IMG_DATA/R10m/T40RCR_20261027T070001_TCI_10m.tif?st=2026-10-28T04%3A06%3A35Z&se=2026-10-29T04%3A51%3A35Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-10-29T02%3A16%3A58Z&ske=2026-11-05T02%3A16%3A58Z&sks=b&skv=2025-07-05&sig=vYXfn1pKievxOOreWWJKHsGBeV%2BeUQKt3%2By8jZ3lDms%3D"
+    },
+    {
+      "scene_id": "S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D",
+      "corridor_id": "strait_of_hormuz",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-10-27",
+      "timestamp_utc": "2026-10-27T02:14:52.591506+00:00",
+      "platform": "sentinel-1c",
+      "mgrs_or_orbit": "ORBIT_166_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 25.053225,
+      "centroid_lon": 55.23363,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1C_IW_GRDH_1SDV_20261027T021440_20261027T021505_010064_01416D&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1C_IW_GRDH_1SDV_20261027T021410_20261027T021440_010064_01416D",
+      "corridor_id": "strait_of_hormuz",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-10-27",
+      "timestamp_utc": "2026-10-27T02:14:25.446409+00:00",
+      "platform": "sentinel-1c",
+      "mgrs_or_orbit": "ORBIT_166_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 26.6902,
+      "centroid_lon": 55.568014,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1C_IW_GRDH_1SDV_20261027T021410_20261027T021440_010064_01416D&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    }
+  ]
+}
