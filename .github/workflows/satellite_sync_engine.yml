@@ -35,9 +35,9 @@ jobs:
         uses: actions/cache@v4
         with:
           path: data/satellite_feed.db
-          key: satellite-feed-db-${{ github.run_id }}
+          key: satellite-feed-v2-db-${{ github.run_id }}
           restore-keys: |
-            satellite-feed-db-
+            satellite-feed-v2-db-
 
       - name: Execute Satellite Ingestion Engine
         run: python scripts/fetch_satellite.py
@@ -47,7 +47,6 @@ jobs:
           git config user.name "satellite-bot[bot]"
           git config user.email "satellite-bot@users.noreply.github.com"
 
-          # Stage ledger, data snapshots, and public edge payloads
           git add ledger/ data/ public/
 
           if git diff --staged --quiet; then
