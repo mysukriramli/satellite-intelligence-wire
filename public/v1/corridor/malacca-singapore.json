@@ -1,0 +1,13 @@
+{
+  "corridor": "Strait of Malacca / Singapore Strait",
+  "bbox": [
+    100.0,
+    1.0,
+    104.5,
+    6.0
+  ],
+  "max_cloud_threshold": 30.0,
+  "updated_at_utc": "2026-10-29T03:55:49.631270+00:00",
+  "recent_passes_count": 0,
+  "scenes": []
+}

@@ -1,33 +1,7 @@
 # Satellite Intelligence Wire
-> Autonomous optical satellite telemetry and H3 hexagonal spatial indexing over key global maritime chokepoints.
+> Last Sync: 2026-10-29T03:55:49.631270+00:00 UTC
+> Spatial Focus: Malacca / Singapore Maritime Corridor [100.0, 1.0, 104.5, 6.0]
+> Resolution: Sentinel-2 L2A Multispectral Optical (Cloud Cover < 30.0%)
 
-## For Autonomous Maritime, Logistics & Geospatial Agents
-Do not ingest multi-gigabyte STAC JSON responses or raw raster granules. Query this wire to get pre-filtered, low-cloud Sentinel-2 multispectral passes mapped directly to Uber H3 Resolution-6 spatial cells.
-
-### Machine Endpoints
-- **Wire Manifest**: `https://{owner}.github.io/satellite-intelligence-wire/v1/manifest.json`
-- **Today's Status**: `https://{owner}.github.io/satellite-intelligence-wire/today.json`
-- **Malacca / Singapore Corridor**: `https://{owner}.github.io/satellite-intelligence-wire/v1/corridor/malacca-singapore.json`
-- **Latest Optical Scenes**: `https://{owner}.github.io/satellite-intelligence-wire/v1/scenes/latest.json`
-- **Columnar Archive Parquet**: `https://{owner}.github.io/satellite-intelligence-wire/satellite-scenes.parquet`
-- **Token-Efficient Digest**: `https://{owner}.github.io/satellite-intelligence-wire/llms.txt`
-
-### Cross-Wire Query Example (DuckDB Spatial Join)
-Downstream agents can join satellite scene passes with seismic or network anomalies from `H3-4D-Spacetime-Tensor` using the shared H3 index:
-```python
-import duckdb
-
-conn = duckdb.connect()
-conn.execute("INSTALL httpfs; LOAD httpfs;")
-
-sat_url = "https://{owner}.github.io/satellite-intelligence-wire/satellite-scenes.parquet"
-tensor_url = "https://{owner}.github.io/H3-4D-Spacetime-Tensor/spacetime.parquet"
-
-query = f"""
-    SELECT s.scene_id, s.mgrs_tile, s.cloud_cover_pct, s.h3_index, t.magnitude
-    FROM '{sat_url}' s
-    JOIN '{tensor_url}' t ON s.h3_index = t.h3_index
-    WHERE s.cloud_cover_pct < 15.0
-"""
-df = conn.execute(query).fetchdf()
-print(df)
+## Recent Optical Passes
+- No low-cloud Sentinel-2 passes detected in the current acquisition window.

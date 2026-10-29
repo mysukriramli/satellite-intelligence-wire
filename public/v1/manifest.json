@@ -1,0 +1,30 @@
+{
+  "wire": "satellite-intelligence-wire",
+  "schema_version": "1.0.0",
+  "generated_at": "2026-10-29T03:55:49.631270+00:00",
+  "source_cursor": "microsoft-planetary-computer-sentinel-2-l2a",
+  "freshness_slo_seconds": 86400,
+  "artifacts": [
+    "today.json",
+    "satellite-scenes.parquet",
+    "llms.txt",
+    "v1/schema.json",
+    "v1/scenes/latest.json",
+    "v1/corridor/malacca-singapore.json"
+  ],
+  "coverage": {
+    "monitored_corridor": "Strait of Malacca & Singapore",
+    "bbox": [
+      100.0,
+      1.0,
+      104.5,
+      6.0
+    ],
+    "max_cloud_cover": 30.0,
+    "h3_resolution": 6
+  },
+  "limitations": [
+    "Optical satellite coverage subject to equatorial cloud occlusion",
+    "Constrained to Sentinel-2 Level-2A surface reflectance passes"
+  ]
+}

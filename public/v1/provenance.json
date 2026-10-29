@@ -1,0 +1,7 @@
+{
+  "generator": "satellite-intelligence-wire",
+  "runtime": "python-3.11",
+  "provider": "Copernicus Sentinel-2 via Planetary Computer STAC",
+  "h3_indexing": "Resolution-6",
+  "generated_at_utc": "2026-10-29T03:55:49.631270+00:00"
+}

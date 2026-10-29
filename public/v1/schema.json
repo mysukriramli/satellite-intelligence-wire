@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "title": "SatelliteSceneFeed",
+  "type": "object",
+  "properties": {
+    "scene_id": {
+      "type": "string"
+    },
+    "observation_date": {
+      "type": "string"
+    },
+    "timestamp_utc": {
+      "type": "string"
+    },
+    "platform": {
+      "type": "string"
+    },
+    "mgrs_tile": {
+      "type": "string"
+    },
+    "h3_index": {
+      "type": "string"
+    },
+    "cloud_cover_pct": {
+      "type": "number"
+    },
+    "centroid_lat": {
+      "type": "number"
+    },
+    "centroid_lon": {
+      "type": "number"
+    },
+    "thumbnail_url": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "scene_id",
+    "timestamp_utc",
+    "h3_index",
+    "cloud_cover_pct"
+  ]
+}
