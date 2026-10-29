@@ -1,7 +1,33 @@
 # Satellite Intelligence Wire
-> Last Sync: 2026-10-29T03:55:49.631270+00:00 UTC
-> Spatial Focus: Malacca / Singapore Maritime Corridor [100.0, 1.0, 104.5, 6.0]
-> Resolution: Sentinel-2 L2A Multispectral Optical (Cloud Cover < 30.0%)
+> Sensor-fused optical (Sentinel-2) and Synthetic Aperture Radar (Sentinel-1 SAR) telemetry with multi-cell H3 spatial indexing.
 
-## Recent Optical Passes
-- No low-cloud Sentinel-2 passes detected in the current acquisition window.
+## For Autonomous Maritime, Logistics & Geospatial Agents
+Do not ingest multi-gigabyte STAC JSON responses or parse raw raster granules. Query this wire to get pre-filtered, low-cloud Sentinel-2 optical passes and all-weather Sentinel-1 SAR fallback passes tessellated across Uber H3 Resolution-6 spatial cells.
+
+### Machine Endpoints
+- **Wire Manifest**: `https://{owner}.github.io/satellite-intelligence-wire/v1/manifest.json`
+- **Today's Status**: `https://{owner}.github.io/satellite-intelligence-wire/today.json`
+- **Corridor Telemetry**: `https://{owner}.github.io/satellite-intelligence-wire/v1/corridors/{corridor_id}.json`
+- **Latest Optical & SAR Scenes**: `https://{owner}.github.io/satellite-intelligence-wire/v1/scenes/latest.json`
+- **Corridor Change Detections**: `https://{owner}.github.io/satellite-intelligence-wire/v1/deltas/today.json`
+- **Analytical Columnar Parquet**: `https://{owner}.github.io/satellite-intelligence-wire/satellite-scenes.parquet`
+- **H3 Inverted Index Parquet**: `https://{owner}.github.io/satellite-intelligence-wire/scene-h3-coverage.parquet`
+- **Token-Efficient Digest**: `https://{owner}.github.io/satellite-intelligence-wire/llms.txt`
+
+### Cross-Wire Query Example (H3 Spatial Join with Spacetime Tensor)
+```python
+import duckdb
+
+conn = duckdb.connect()
+conn.execute("INSTALL httpfs; LOAD httpfs;")
+
+sat_url = "https://{owner}.github.io/satellite-intelligence-wire/scene-h3-coverage.parquet"
+tensor_url = "https://{owner}.github.io/H3-4D-Spacetime-Tensor/spacetime.parquet"
+
+query = f"""
+    SELECT s.corridor_id, s.scene_id, s.sensor_type, s.h3_index, t.magnitude
+    FROM '{sat_url}' s
+    JOIN '{tensor_url}' t ON s.h3_index = t.h3_index
+"""
+df = conn.execute(query).fetchdf()
+print(df)
