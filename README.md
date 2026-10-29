@@ -1,20 +1,23 @@
 ```markdown
 # 🛰️ Satellite Intelligence Wire
 
-An autonomous satellite intelligence data plane running entirely on GitHub Actions. It monitors vital global maritime corridors (e.g., Strait of Malacca & Singapore Strait), pulls multispectral Sentinel-2 Level-2A imagery metadata via Microsoft Planetary Computer STAC, filters for low cloud occlusion, indexes scene footprints into Uber H3 cells, and publishes zero-token machine feeds.
+An autonomous planetary intelligence data plane running on GitHub Actions. It monitors vital global maritime corridors (Strait of Malacca, Bab-el-Mandeb, Strait of Hormuz, Panama Canal), fuses optical Sentinel-2 imagery with cloud-penetrating Sentinel-1 C-band Synthetic Aperture Radar (SAR), tessellates scene footprints across Uber H3 cells, and detects pass-to-pass variance for AI agents.
 
 ## Machine Feeds
 - [`/v1/manifest.json`](public/v1/manifest.json) (Wire contract & coverage bounds)
-- [`/today.json`](public/today.json) (Current run execution summary)
-- [`/v1/schema.json`](public/v1/schema.json) (JSON Schema for scene records)
-- [`/v1/corridor/malacca-singapore.json`](public/v1/corridor/malacca-singapore.json) (Target corridor latest passes)
-- [`/v1/scenes/latest.json`](public/v1/scenes/latest.json) (Full recent scene catalog)
-- [`/satellite-scenes.parquet`](public/satellite-scenes.parquet) (Analytical columnar archive)
+- [`/today.json`](public/today.json) (Current execution summary)
+- [`/v1/schema.json`](public/v1/schema.json) (Feed JSON Schema)
+- [`/v1/corridors/strait_of_malacca.json`](public/v1/corridors/strait_of_malacca.json) (Malacca & Singapore corridor feed)
+- [`/v1/scenes/latest.json`](public/v1/scenes/latest.json) (Recent optical and SAR scenes)
+- [`/v1/deltas/today.json`](public/v1/deltas/today.json) (Corridor change detection alerts)
+- [`/satellite-scenes.parquet`](public/satellite-scenes.parquet) (Analytical scene database)
+- [`/scene-h3-coverage.parquet`](public/scene-h3-coverage.parquet) (Spatial H3 inverted index)
 - [`/llms.txt`](public/llms.txt) (Token-efficient LLM digest)
 
 ## Architecture
-- **Imagery Source**: Copernicus Sentinel-2 L2A via Planetary Computer STAC API
-- **Spatial Transformation**: Centroid derivation and Uber H3 discrete hexagonal cell indexing (Resolution 6)
-- **Analytical Engine**: DuckDB + Parquet
-- **State Ledger**: Git-tracked append-only JSONL in `/ledger`
-- **Edge CDN Delivery**: GitHub Pages (Fastly CDN)
+- **Sensors**: Sentinel-2 L2A (Multispectral Optical) + Sentinel-1 GRD (Synthetic Aperture Radar)
+- **Spatial Indexing**: Uber H3 discrete hexagonal tessellation (`h3.polyfill`, Resolution 6)
+- **Storage & Parquet**: DuckDB + Apache Parquet
+- **Decoupled Asset Pointers**: Canonical blob storage identifiers with on-demand client-side SAS signing
+- **Ledger**: Git-tracked append-only JSONL in `/ledger`
+- **Edge CDN**: GitHub Pages (Fastly CDN)
