@@ -1,0 +1,30 @@
+[
+  {
+    "id": "strait_of_malacca",
+    "name": "Strait of Malacca & Singapore",
+    "bbox": [100.0, 1.0, 104.5, 6.0],
+    "priority": "CRITICAL",
+    "max_cloud_optical": 25.0
+  },
+  {
+    "id": "bab_el_mandeb",
+    "name": "Bab-el-Mandeb & Southern Red Sea",
+    "bbox": [42.5, 12.0, 44.0, 14.0],
+    "priority": "CRITICAL",
+    "max_cloud_optical": 15.0
+  },
+  {
+    "id": "strait_of_hormuz",
+    "name": "Strait of Hormuz",
+    "bbox": [55.5, 25.5, 57.5, 27.5],
+    "priority": "HIGH",
+    "max_cloud_optical": 20.0
+  },
+  {
+    "id": "panama_canal",
+    "name": "Panama Canal Approaches",
+    "bbox": [-80.1, 8.8, -79.4, 9.4],
+    "priority": "HIGH",
+    "max_cloud_optical": 30.0
+  }
+]
