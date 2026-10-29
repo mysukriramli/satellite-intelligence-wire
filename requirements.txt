@@ -1,0 +1,6 @@
+pystac-client==0.8.6
+planetary-computer==1.0.0
+requests==2.32.3
+duckdb==1.1.1
+h3==3.7.6
+pyarrow==17.0.0
