@@ -1,6 +1,25 @@
 {
-  "date": "2026-10-29",
-  "updated_at_utc": "2026-10-29T12:48:03.535496+00:00",
-  "deltas_count": 0,
-  "deltas": []
+  "date": "2026-10-30",
+  "updated_at_utc": "2026-10-30T12:40:02.919793+00:00",
+  "deltas_count": 2,
+  "deltas": [
+    {
+      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
+      "corridor_id": "bab_el_mandeb",
+      "mgrs_or_orbit": "38PLV",
+      "latest_scene_id": "S2B_MSIL2A_20261028T072019_R006_T38PLV_20261028T111943",
+      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PLV_20261028T105406",
+      "cloud_delta_pct": 0.08,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
+      "corridor_id": "bab_el_mandeb",
+      "mgrs_or_orbit": "38PLU",
+      "latest_scene_id": "S2B_MSIL2A_20261028T072019_R006_T38PLU_20261028T111943",
+      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PLU_20261028T105406",
+      "cloud_delta_pct": 0.15,
+      "change_intensity": "NONE"
+    }
+  ]
 }

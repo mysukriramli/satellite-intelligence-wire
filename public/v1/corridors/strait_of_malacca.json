@@ -7,8 +7,8 @@
     104.5,
     6.0
   ],
-  "updated_at_utc": "2026-10-29T12:48:03.535496+00:00",
-  "recent_passes_count": 9,
+  "updated_at_utc": "2026-10-30T12:40:02.919793+00:00",
+  "recent_passes_count": 5,
   "scenes": [
     {
       "scene_id": "S1D_IW_GRDH_1SDV_20261028T111800_20261028T111824_005215_009E6F",
@@ -84,66 +84,6 @@
       "centroid_lon": 105.41219,
       "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
       "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261028T111620_20261028T111644_005214_009E6F&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261027T225543_20261027T225608_005207_009E2D",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-10-27",
-      "timestamp_utc": "2026-10-27T22:55:56.418590+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_91_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 1.282158,
-      "centroid_lon": 101.831852,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261027T225543_20261027T225608_005207_009E2D&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261027T225518_20261027T225543_005207_009E2D",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-10-27",
-      "timestamp_utc": "2026-10-27T22:55:31.418957+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_91_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 2.792361,
-      "centroid_lon": 102.145378,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261027T225518_20261027T225543_005207_009E2D&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261027T225453_20261027T225518_005207_009E2D",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-10-27",
-      "timestamp_utc": "2026-10-27T22:55:06.418580+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_91_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 4.302798,
-      "centroid_lon": 102.456562,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261027T225453_20261027T225518_005207_009E2D&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261027T225424_20261027T225453_005207_009E2D",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-10-27",
-      "timestamp_utc": "2026-10-27T22:54:39.274614+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_91_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 5.942358,
-      "centroid_lon": 102.794022,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261027T225424_20261027T225453_005207_009E2D&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
     }
   ]
 }
