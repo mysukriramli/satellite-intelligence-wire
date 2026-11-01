@@ -7,7 +7,53 @@
     104.5,
     6.0
   ],
-  "updated_at_utc": "2026-10-31T12:08:39.782853+00:00",
-  "recent_passes_count": 0,
-  "scenes": []
+  "updated_at_utc": "2026-11-01T13:08:23.308082+00:00",
+  "recent_passes_count": 3,
+  "scenes": [
+    {
+      "scene_id": "S2C_MSIL2A_20261031T031851_R118_T48NVM_20261031T080214",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "OPTICAL_SENTINEL2",
+      "observation_date": "2026-10-31",
+      "timestamp_utc": "2026-10-31T03:18:51.025000+00:00",
+      "platform": "Sentinel-2C",
+      "mgrs_or_orbit": "48NVM",
+      "cloud_cover_pct": 22.04,
+      "h3_coverage_count": 1,
+      "centroid_lat": 5.836061,
+      "centroid_lon": 104.591883,
+      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/VM/2026/10/31/S2C_MSIL2A_20261031T031851_N0513_R118_T48NVM_20261031T080214.SAFE/GRANULE/L2A_T48NVM_A011242_20261031T033347/IMG_DATA/R10m/T48NVM_20261031T031851_TCI_10m.tif",
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/VM/2026/10/31/S2C_MSIL2A_20261031T031851_N0513_R118_T48NVM_20261031T080214.SAFE/GRANULE/L2A_T48NVM_A011242_20261031T033347/IMG_DATA/R10m/T48NVM_20261031T031851_TCI_10m.tif?st=2026-10-31T13%3A08%3A24Z&se=2026-11-01T13%3A53%3A24Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-01T11%3A58%3A33Z&ske=2026-11-08T11%3A58%3A33Z&sks=b&skv=2025-07-05&sig=pPA2Z%2BWF1PhWSNaLQ4YqEiMbTojvqpT3zSnFqxKdaa4%3D"
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20261031T031851_R118_T48NVL_20261031T080214",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "OPTICAL_SENTINEL2",
+      "observation_date": "2026-10-31",
+      "timestamp_utc": "2026-10-31T03:18:51.025000+00:00",
+      "platform": "Sentinel-2C",
+      "mgrs_or_orbit": "48NVL",
+      "cloud_cover_pct": 19.84,
+      "h3_coverage_count": 1,
+      "centroid_lat": 4.931286,
+      "centroid_lon": 104.592542,
+      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/VL/2026/10/31/S2C_MSIL2A_20261031T031851_N0513_R118_T48NVL_20261031T080214.SAFE/GRANULE/L2A_T48NVL_A011242_20261031T033347/IMG_DATA/R10m/T48NVL_20261031T031851_TCI_10m.tif",
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/VL/2026/10/31/S2C_MSIL2A_20261031T031851_N0513_R118_T48NVL_20261031T080214.SAFE/GRANULE/L2A_T48NVL_A011242_20261031T033347/IMG_DATA/R10m/T48NVL_20261031T031851_TCI_10m.tif?st=2026-10-31T13%3A08%3A24Z&se=2026-11-01T13%3A53%3A24Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-01T11%3A58%3A33Z&ske=2026-11-08T11%3A58%3A33Z&sks=b&skv=2025-07-05&sig=pPA2Z%2BWF1PhWSNaLQ4YqEiMbTojvqpT3zSnFqxKdaa4%3D"
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20261031T031851_R118_T48NVK_20261031T080214",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "OPTICAL_SENTINEL2",
+      "observation_date": "2026-10-31",
+      "timestamp_utc": "2026-10-31T03:18:51.025000+00:00",
+      "platform": "Sentinel-2C",
+      "mgrs_or_orbit": "48NVK",
+      "cloud_cover_pct": 18.09,
+      "h3_coverage_count": 1,
+      "centroid_lat": 4.02703,
+      "centroid_lon": 104.593098,
+      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/VK/2026/10/31/S2C_MSIL2A_20261031T031851_N0513_R118_T48NVK_20261031T080214.SAFE/GRANULE/L2A_T48NVK_A011242_20261031T033347/IMG_DATA/R10m/T48NVK_20261031T031851_TCI_10m.tif",
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/VK/2026/10/31/S2C_MSIL2A_20261031T031851_N0513_R118_T48NVK_20261031T080214.SAFE/GRANULE/L2A_T48NVK_A011242_20261031T033347/IMG_DATA/R10m/T48NVK_20261031T031851_TCI_10m.tif?st=2026-10-31T13%3A08%3A24Z&se=2026-11-01T13%3A53%3A24Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-01T11%3A58%3A33Z&ske=2026-11-08T11%3A58%3A33Z&sks=b&skv=2025-07-05&sig=pPA2Z%2BWF1PhWSNaLQ4YqEiMbTojvqpT3zSnFqxKdaa4%3D"
+    }
+  ]
 }

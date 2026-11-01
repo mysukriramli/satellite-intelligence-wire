@@ -1,6 +1,34 @@
 {
-  "date": "2026-10-31",
-  "updated_at_utc": "2026-10-31T12:08:39.782853+00:00",
-  "deltas_count": 0,
-  "deltas": []
+  "date": "2026-11-01",
+  "updated_at_utc": "2026-11-01T13:08:23.308082+00:00",
+  "deltas_count": 3,
+  "deltas": [
+    {
+      "delta_id": "delta_S2C_MSIL2A_20261_S2B_MSIL2A_20261",
+      "corridor_id": "strait_of_hormuz",
+      "mgrs_or_orbit": "40RER",
+      "latest_scene_id": "S2C_MSIL2A_20261031T064011_R120_T40RER_20261031T100204",
+      "previous_scene_id": "S2B_MSIL2A_20261029T065009_R020_T40RER_20261029T122802",
+      "cloud_delta_pct": 0.02,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2C_MSIL2A_20261_S2B_MSIL2A_20261",
+      "corridor_id": "strait_of_hormuz",
+      "mgrs_or_orbit": "40REQ",
+      "latest_scene_id": "S2C_MSIL2A_20261031T064011_R120_T40REQ_20261031T100204",
+      "previous_scene_id": "S2B_MSIL2A_20261029T065009_R020_T40REQ_20261029T122802",
+      "cloud_delta_pct": 1.96,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2C_MSIL2A_20261_S2B_MSIL2A_20261",
+      "corridor_id": "strait_of_hormuz",
+      "mgrs_or_orbit": "40REP",
+      "latest_scene_id": "S2C_MSIL2A_20261031T064011_R120_T40REP_20261031T100204",
+      "previous_scene_id": "S2B_MSIL2A_20261029T065009_R020_T40REP_20261029T122802",
+      "cloud_delta_pct": 15.99,
+      "change_intensity": "NONE"
+    }
+  ]
 }

@@ -7,23 +7,7 @@
     -79.4,
     9.4
   ],
-  "updated_at_utc": "2026-10-31T12:08:39.782853+00:00",
-  "recent_passes_count": 1,
-  "scenes": [
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261029T233110_20261029T233138_005237_009F2B",
-      "corridor_id": "panama_canal",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-10-29",
-      "timestamp_utc": "2026-10-29T23:31:24.391563+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_121_ascending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 9.551524,
-      "centroid_lon": -79.570255,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261029T233110_20261029T233138_005237_009F2B&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    }
-  ]
+  "updated_at_utc": "2026-11-01T13:08:23.308082+00:00",
+  "recent_passes_count": 0,
+  "scenes": []
 }
