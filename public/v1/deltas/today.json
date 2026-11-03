@@ -1,96 +1,105 @@
 {
-  "date": "2026-11-02",
-  "updated_at_utc": "2026-11-02T15:31:44.205281+00:00",
-  "deltas_count": 10,
+  "date": "2026-11-03",
+  "updated_at_utc": "2026-11-03T13:59:52.513428+00:00",
+  "deltas_count": 11,
   "deltas": [
     {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
-      "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "38PLV",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T38PLV_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PLV_20261028T105406",
-      "cloud_delta_pct": 0.42,
+      "delta_id": "delta_S2A_MSIL2A_20261_S2C_MSIL2A_20261",
+      "corridor_id": "strait_of_malacca",
+      "mgrs_or_orbit": "48NVM",
+      "latest_scene_id": "S2A_MSIL2A_20261102T032141_R118_T48NVM_20261102T075105",
+      "previous_scene_id": "S2C_MSIL2A_20261031T031851_R118_T48NVM_20261031T080214",
+      "cloud_delta_pct": 15.69,
       "change_intensity": "NONE"
     },
     {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
-      "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "38PLU",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T38PLU_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PLU_20261028T105406",
-      "cloud_delta_pct": 14.75,
+      "delta_id": "delta_S2A_MSIL2A_20261_S2C_MSIL2A_20261",
+      "corridor_id": "strait_of_malacca",
+      "mgrs_or_orbit": "48NVL",
+      "latest_scene_id": "S2A_MSIL2A_20261102T032141_R118_T48NVL_20261102T075105",
+      "previous_scene_id": "S2C_MSIL2A_20261031T031851_R118_T48NVL_20261031T080214",
+      "cloud_delta_pct": 9.62,
       "change_intensity": "NONE"
     },
     {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
-      "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "38PLA",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T38PLA_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PLA_20261028T105406",
-      "cloud_delta_pct": 0.02,
+      "delta_id": "delta_S2A_MSIL2A_20261_S2C_MSIL2A_20261",
+      "corridor_id": "strait_of_malacca",
+      "mgrs_or_orbit": "48NVK",
+      "latest_scene_id": "S2A_MSIL2A_20261102T032141_R118_T48NVK_20261102T075105",
+      "previous_scene_id": "S2C_MSIL2A_20261031T031851_R118_T48NVK_20261031T080214",
+      "cloud_delta_pct": 3.12,
       "change_intensity": "NONE"
     },
     {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
+      "delta_id": "delta_S1D_IW_GRDH_1SDV_S1C_IW_GRDH_1SDV",
       "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "38PKV",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T38PKV_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PKV_20261028T105406",
-      "cloud_delta_pct": 0.01,
-      "change_intensity": "NONE"
-    },
-    {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
-      "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "38PKU",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T38PKU_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PKU_20261028T105406",
-      "cloud_delta_pct": 1.22,
-      "change_intensity": "NONE"
-    },
-    {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
-      "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "38PKA",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T38PKA_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T38PKA_20261028T105406",
-      "cloud_delta_pct": 0.01,
-      "change_intensity": "NONE"
-    },
-    {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
-      "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "37PHR",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T37PHR_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T37PHR_20261028T105406",
-      "cloud_delta_pct": 0.02,
-      "change_intensity": "NONE"
-    },
-    {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
-      "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "37PHQ",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T37PHQ_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T37PHQ_20261028T105406",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "latest_scene_id": "S1D_IW_GRDH_1SDV_20261103T025949_20261103T030014_005297_00A144",
+      "previous_scene_id": "S1C_IW_GRDH_1SDV_20261028T025928_20261028T025953_010079_0141E9",
       "cloud_delta_pct": 0.0,
       "change_intensity": "NONE"
     },
     {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2A_MSIL2A_20261",
+      "delta_id": "delta_S1D_IW_GRDH_1SDV_S1D_IW_GRDH_1SDV",
       "corridor_id": "bab_el_mandeb",
-      "mgrs_or_orbit": "37PHP",
-      "latest_scene_id": "S2B_MSIL2A_20261031T073039_R049_T37PHP_20261031T094214",
-      "previous_scene_id": "S2A_MSIL2A_20261028T074431_R049_T37PHP_20261028T105406",
-      "cloud_delta_pct": 0.1,
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "latest_scene_id": "S1D_IW_GRDH_1SDV_20261103T025924_20261103T025949_005297_00A144",
+      "previous_scene_id": "S1D_IW_GRDH_1SDV_20261103T025949_20261103T030014_005297_00A144",
+      "cloud_delta_pct": 0.0,
       "change_intensity": "NONE"
     },
     {
-      "delta_id": "delta_S2B_MSIL2A_20261_S2C_MSIL2A_20261",
+      "delta_id": "delta_S1D_IW_GRDH_1SDV_S1D_IW_GRDH_1SDV",
+      "corridor_id": "bab_el_mandeb",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "latest_scene_id": "S1D_IW_GRDH_1SDV_20261103T025859_20261103T025924_005297_00A144",
+      "previous_scene_id": "S1D_IW_GRDH_1SDV_20261103T025949_20261103T030014_005297_00A144",
+      "cloud_delta_pct": 0.0,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2C_MSIL2A_20261_S2C_MSIL2A_20261",
       "corridor_id": "strait_of_hormuz",
-      "mgrs_or_orbit": "40RCR",
-      "latest_scene_id": "S2B_MSIL2A_20261101T070029_R063_T40RCR_20261101T235140",
-      "previous_scene_id": "S2C_MSIL2A_20261027T070001_R063_T40RCR_20261027T121510",
-      "cloud_delta_pct": 19.06,
+      "mgrs_or_orbit": "40RDP",
+      "latest_scene_id": "S2C_MSIL2A_20261103T065031_R020_T40RDP_20261103T101659",
+      "previous_scene_id": "S2C_MSIL2A_20261031T064011_R120_T40RDP_20261031T100204",
+      "cloud_delta_pct": 0.24,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2A_MSIL2A_20261_S2C_MSIL2A_20261",
+      "corridor_id": "strait_of_hormuz",
+      "mgrs_or_orbit": "40RER",
+      "latest_scene_id": "S2A_MSIL2A_20261102T064311_R120_T40RER_20261102T113056",
+      "previous_scene_id": "S2C_MSIL2A_20261031T064011_R120_T40RER_20261031T100204",
+      "cloud_delta_pct": 0.01,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2A_MSIL2A_20261_S2C_MSIL2A_20261",
+      "corridor_id": "strait_of_hormuz",
+      "mgrs_or_orbit": "40REQ",
+      "latest_scene_id": "S2A_MSIL2A_20261102T064311_R120_T40REQ_20261102T113056",
+      "previous_scene_id": "S2C_MSIL2A_20261031T064011_R120_T40REQ_20261031T100204",
+      "cloud_delta_pct": 1.28,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2A_MSIL2A_20261_S2C_MSIL2A_20261",
+      "corridor_id": "strait_of_hormuz",
+      "mgrs_or_orbit": "40REP",
+      "latest_scene_id": "S2A_MSIL2A_20261102T064311_R120_T40REP_20261102T113056",
+      "previous_scene_id": "S2C_MSIL2A_20261031T064011_R120_T40REP_20261031T100204",
+      "cloud_delta_pct": 0.01,
+      "change_intensity": "NONE"
+    },
+    {
+      "delta_id": "delta_S2A_MSIL2A_20261_S2C_MSIL2A_20261",
+      "corridor_id": "strait_of_hormuz",
+      "mgrs_or_orbit": "40RDP",
+      "latest_scene_id": "S2A_MSIL2A_20261102T064311_R120_T40RDP_20261102T113056",
+      "previous_scene_id": "S2C_MSIL2A_20261103T065031_R020_T40RDP_20261103T101659",
+      "cloud_delta_pct": 0.24,
       "change_intensity": "NONE"
     }
   ]
