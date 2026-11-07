@@ -7,8 +7,8 @@
     104.5,
     6.0
   ],
-  "updated_at_utc": "2026-11-06T14:06:54.554429+00:00",
-  "recent_passes_count": 1,
+  "updated_at_utc": "2026-11-07T12:50:39.454393+00:00",
+  "recent_passes_count": 2,
   "scenes": [
     {
       "scene_id": "S2B_MSIL2A_20261105T031919_R118_T48NTM_20261105T070650",
@@ -23,7 +23,22 @@
       "centroid_lat": 5.832897,
       "centroid_lon": 103.039943,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/TM/2026/11/05/S2B_MSIL2A_20261105T031919_N0513_R118_T48NTM_20261105T070650.SAFE/GRANULE/L2A_T48NTM_A050480_20261105T032406/IMG_DATA/R10m/T48NTM_20261105T031919_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/TM/2026/11/05/S2B_MSIL2A_20261105T031919_N0513_R118_T48NTM_20261105T070650.SAFE/GRANULE/L2A_T48NTM_A050480_20261105T032406/IMG_DATA/R10m/T48NTM_20261105T031919_TCI_10m.tif?st=2026-11-05T14%3A06%3A55Z&se=2026-11-06T14%3A51%3A55Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-06T13%3A58%3A54Z&ske=2026-11-13T13%3A58%3A54Z&sks=b&skv=2025-07-05&sig=vRQQDRaNwPPq%2BWp%2BwdAdYy1DMtC75/yEQEygxWSyCbM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/48/N/TM/2026/11/05/S2B_MSIL2A_20261105T031919_N0513_R118_T48NTM_20261105T070650.SAFE/GRANULE/L2A_T48NTM_A050480_20261105T032406/IMG_DATA/R10m/T48NTM_20261105T031919_TCI_10m.tif?st=2026-11-06T12%3A50%3A40Z&se=2026-11-07T13%3A35%3A40Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-07T11%3A42%3A09Z&ske=2026-11-14T11%3A42%3A09Z&sks=b&skv=2025-07-05&sig=Nl%2BFmXM37LIAC2n5N%2BvylTf%2BCf9J0cS0rD3hb%2Bumejw%3D"
+    },
+    {
+      "scene_id": "S1C_IW_GRDH_1SDV_20261106T114108_20261106T114137_010215_014668",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-06",
+      "timestamp_utc": "2026-11-06T11:41:22.676071+00:00",
+      "platform": "sentinel-1c",
+      "mgrs_or_orbit": "ORBIT_142_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 1.752633,
+      "centroid_lon": 98.947948,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1C_IW_GRDH_1SDV_20261106T114108_20261106T114137_010215_014668&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
     }
   ]
 }
