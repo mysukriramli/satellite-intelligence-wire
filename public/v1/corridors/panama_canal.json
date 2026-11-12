@@ -7,24 +7,9 @@
     -79.4,
     9.4
   ],
-  "updated_at_utc": "2026-11-11T13:59:24.693588+00:00",
-  "recent_passes_count": 3,
+  "updated_at_utc": "2026-11-12T15:00:41.602190+00:00",
+  "recent_passes_count": 2,
   "scenes": [
-    {
-      "scene_id": "S2C_MSIL2A_20261109T154541_R111_T17PPK_20261109T181856",
-      "corridor_id": "panama_canal",
-      "sensor_type": "OPTICAL_SENTINEL2",
-      "observation_date": "2026-11-09",
-      "timestamp_utc": "2026-11-09T15:45:41.025000+00:00",
-      "platform": "Sentinel-2C",
-      "mgrs_or_orbit": "17PPK",
-      "cloud_cover_pct": 19.63,
-      "h3_coverage_count": 1,
-      "centroid_lat": 8.547384,
-      "centroid_lon": -79.591913,
-      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PK/2026/11/09/S2C_MSIL2A_20261109T154541_N0513_R111_T17PPK_20261109T181856.SAFE/GRANULE/L2A_T17PPK_A011378_20261109T154819/IMG_DATA/R10m/T17PPK_20261109T154541_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PK/2026/11/09/S2C_MSIL2A_20261109T154541_N0513_R111_T17PPK_20261109T181856.SAFE/GRANULE/L2A_T17PPK_A011378_20261109T154819/IMG_DATA/R10m/T17PPK_20261109T154541_TCI_10m.tif?st=2026-11-10T13%3A59%3A27Z&se=2026-11-11T14%3A44%3A27Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-11T12%3A29%3A40Z&ske=2026-11-18T12%3A29%3A40Z&sks=b&skv=2025-07-05&sig=jAbLrId8B6l3UtgHT2bqihQRvTol3jgUlng%2BUHJIfok%3D"
-    },
     {
       "scene_id": "S1D_IW_GRDH_1SDV_20261110T233110_20261110T233138_005412_00A53A",
       "corridor_id": "panama_canal",
