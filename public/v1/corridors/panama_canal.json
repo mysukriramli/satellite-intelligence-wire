@@ -7,38 +7,23 @@
     -79.4,
     9.4
   ],
-  "updated_at_utc": "2026-11-12T15:00:41.602190+00:00",
-  "recent_passes_count": 2,
+  "updated_at_utc": "2026-11-13T14:26:45.895012+00:00",
+  "recent_passes_count": 1,
   "scenes": [
     {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261110T233110_20261110T233138_005412_00A53A",
+      "scene_id": "S2C_MSIL2A_20261112T155521_R011_T17PNK_20261112T195814",
       "corridor_id": "panama_canal",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T23:31:24.126606+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_121_ascending",
-      "cloud_cover_pct": 0.0,
+      "sensor_type": "OPTICAL_SENTINEL2",
+      "observation_date": "2026-11-12",
+      "timestamp_utc": "2026-11-12T15:55:21.025000+00:00",
+      "platform": "Sentinel-2C",
+      "mgrs_or_orbit": "17PNK",
+      "cloud_cover_pct": 23.39,
       "h3_coverage_count": 1,
-      "centroid_lat": 9.552145,
-      "centroid_lon": -79.57011,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261110T233110_20261110T233138_005412_00A53A&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261110T110551_20261110T110620_005404_00A4F9",
-      "corridor_id": "panama_canal",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-10",
-      "timestamp_utc": "2026-11-10T11:06:05.967733+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_113_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 9.175214,
-      "centroid_lon": -79.622421,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261110T110551_20261110T110620_005404_00A4F9&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+      "centroid_lat": 8.54965,
+      "centroid_lon": -80.500727,
+      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/NK/2026/11/12/S2C_MSIL2A_20261112T155521_N0513_R011_T17PNK_20261112T195814.SAFE/GRANULE/L2A_T17PNK_A011421_20261112T160037/IMG_DATA/R10m/T17PNK_20261112T155521_TCI_10m.tif",
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/NK/2026/11/12/S2C_MSIL2A_20261112T155521_N0513_R011_T17PNK_20261112T195814.SAFE/GRANULE/L2A_T17PNK_A011421_20261112T160037/IMG_DATA/R10m/T17PNK_20261112T155521_TCI_10m.tif?st=2026-11-12T14%3A26%3A49Z&se=2026-11-13T15%3A11%3A49Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-13T14%3A05%3A43Z&ske=2026-11-20T14%3A05%3A43Z&sks=b&skv=2025-07-05&sig=MY6jOybZiC5CtNtSxfr67ub90cB0gvpyD6kkydMEzgI%3D"
     }
   ]
 }

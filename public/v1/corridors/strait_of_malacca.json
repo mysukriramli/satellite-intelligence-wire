@@ -7,7 +7,38 @@
     104.5,
     6.0
   ],
-  "updated_at_utc": "2026-11-12T15:00:41.602190+00:00",
-  "recent_passes_count": 0,
-  "scenes": []
+  "updated_at_utc": "2026-11-13T14:26:45.895012+00:00",
+  "recent_passes_count": 2,
+  "scenes": [
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261112T114120_20261112T114145_005433_00A5F6",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-12",
+      "timestamp_utc": "2026-11-12T11:41:32.670357+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_142_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 1.581536,
+      "centroid_lon": 98.988751,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261112T114120_20261112T114145_005433_00A5F6&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261112T114055_20261112T114120_005433_00A5F6",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-12",
+      "timestamp_utc": "2026-11-12T11:41:07.670199+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_142_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 0.071168,
+      "centroid_lon": 99.30241,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261112T114055_20261112T114120_005433_00A5F6&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    }
+  ]
 }
