@@ -7,23 +7,7 @@
     44.0,
     14.0
   ],
-  "updated_at_utc": "2026-11-13T14:26:45.895012+00:00",
-  "recent_passes_count": 1,
-  "scenes": [
-    {
-      "scene_id": "S1C_IW_GRDH_1SDV_20261111T151008_20261111T151038_010291_0148CF",
-      "corridor_id": "bab_el_mandeb",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-11",
-      "timestamp_utc": "2026-11-11T15:10:23.500864+00:00",
-      "platform": "sentinel-1c",
-      "mgrs_or_orbit": "ORBIT_43_ascending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 13.718046,
-      "centroid_lon": 45.100277,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1C_IW_GRDH_1SDV_20261111T151008_20261111T151038_010291_0148CF&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    }
-  ]
+  "updated_at_utc": "2026-11-14T13:22:46.794032+00:00",
+  "recent_passes_count": 0,
+  "scenes": []
 }
