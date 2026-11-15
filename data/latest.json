@@ -1,7 +1,67 @@
 {
-  "updated_at_utc": "2026-11-14T13:22:46.794032+00:00",
-  "count": 15,
+  "updated_at_utc": "2026-11-15T13:49:22.344326+00:00",
+  "count": 19,
   "scenes": [
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261114T112559_20261114T112624_005463_00A6EC",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-14",
+      "timestamp_utc": "2026-11-14T11:26:12.427283+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_172_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 5.65121,
+      "centroid_lon": 102.275303,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261114T112559_20261114T112624_005463_00A6EC&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261114T112534_20261114T112559_005463_00A6EC",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-14",
+      "timestamp_utc": "2026-11-14T11:25:47.426956+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_172_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 4.140977,
+      "centroid_lon": 102.58572,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261114T112534_20261114T112559_005463_00A6EC&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261114T112509_20261114T112534_005463_00A6EC",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-14",
+      "timestamp_utc": "2026-11-14T11:25:22.426622+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_172_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 2.629766,
+      "centroid_lon": 102.892792,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261114T112509_20261114T112534_005463_00A6EC&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261114T112444_20261114T112509_005462_00A6EC",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-14",
+      "timestamp_utc": "2026-11-14T11:24:57.426294+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_171_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 1.119212,
+      "centroid_lon": 103.204479,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261114T112444_20261114T112509_005462_00A6EC&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
     {
       "scene_id": "S1D_IW_GRDH_1SDV_20261113T230402_20261113T230427_005455_00A6AF",
       "corridor_id": "strait_of_malacca",
@@ -63,34 +123,49 @@
       "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261113T230247_20261113T230312_005455_00A6AF&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
     },
     {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261112T114120_20261112T114145_005433_00A5F6",
-      "corridor_id": "strait_of_malacca",
+      "scene_id": "S1D_IW_GRDH_1SDV_20261115T025949_20261115T030014_005472_00A745",
+      "corridor_id": "bab_el_mandeb",
       "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-12",
-      "timestamp_utc": "2026-11-12T11:41:32.670357+00:00",
+      "observation_date": "2026-11-15",
+      "timestamp_utc": "2026-11-15T03:00:01.693944+00:00",
       "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_142_ascending",
+      "mgrs_or_orbit": "ORBIT_6_descending",
       "cloud_cover_pct": 0.0,
       "h3_coverage_count": 1,
-      "centroid_lat": 1.581536,
-      "centroid_lon": 98.988751,
+      "centroid_lat": 11.291758,
+      "centroid_lon": 42.167452,
       "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261112T114120_20261112T114145_005433_00A5F6&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T025949_20261115T030014_005472_00A745&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
     },
     {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261112T114055_20261112T114120_005433_00A5F6",
-      "corridor_id": "strait_of_malacca",
+      "scene_id": "S1D_IW_GRDH_1SDV_20261115T025924_20261115T025949_005472_00A745",
+      "corridor_id": "bab_el_mandeb",
       "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-12",
-      "timestamp_utc": "2026-11-12T11:41:07.670199+00:00",
+      "observation_date": "2026-11-15",
+      "timestamp_utc": "2026-11-15T02:59:36.694140+00:00",
       "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_142_ascending",
+      "mgrs_or_orbit": "ORBIT_6_descending",
       "cloud_cover_pct": 0.0,
       "h3_coverage_count": 1,
-      "centroid_lat": 0.071168,
-      "centroid_lon": 99.30241,
+      "centroid_lat": 12.800604,
+      "centroid_lon": 42.478124,
       "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261112T114055_20261112T114120_005433_00A5F6&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T025924_20261115T025949_005472_00A745&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261115T025859_20261115T025924_005472_00A745",
+      "corridor_id": "bab_el_mandeb",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-15",
+      "timestamp_utc": "2026-11-15T02:59:11.694307+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 14.311305,
+      "centroid_lon": 42.777519,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T025859_20261115T025924_005472_00A745&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40RER_20261113T101603",
@@ -105,7 +180,7 @@
       "centroid_lat": 27.527995,
       "centroid_lon": 57.558251,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/ER/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RER_20261113T101603.SAFE/GRANULE/L2A_T40RER_A011430_20261113T065533/IMG_DATA/R10m/T40RER_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/ER/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RER_20261113T101603.SAFE/GRANULE/L2A_T40RER_A011430_20261113T065533/IMG_DATA/R10m/T40RER_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/ER/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RER_20261113T101603.SAFE/GRANULE/L2A_T40RER_A011430_20261113T065533/IMG_DATA/R10m/T40RER_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40REQ_20261113T101603",
@@ -120,7 +195,7 @@
       "centroid_lat": 26.625485,
       "centroid_lon": 57.472353,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/EQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40REQ_20261113T101603.SAFE/GRANULE/L2A_T40REQ_A011430_20261113T065533/IMG_DATA/R10m/T40REQ_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/EQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40REQ_20261113T101603.SAFE/GRANULE/L2A_T40REQ_A011430_20261113T065533/IMG_DATA/R10m/T40REQ_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/EQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40REQ_20261113T101603.SAFE/GRANULE/L2A_T40REQ_A011430_20261113T065533/IMG_DATA/R10m/T40REQ_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40RDR_20261113T101603",
@@ -135,7 +210,7 @@
       "centroid_lat": 27.527979,
       "centroid_lon": 56.540824,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DR/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDR_20261113T101603.SAFE/GRANULE/L2A_T40RDR_A011430_20261113T065533/IMG_DATA/R10m/T40RDR_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DR/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDR_20261113T101603.SAFE/GRANULE/L2A_T40RDR_A011430_20261113T065533/IMG_DATA/R10m/T40RDR_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DR/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDR_20261113T101603.SAFE/GRANULE/L2A_T40RDR_A011430_20261113T065533/IMG_DATA/R10m/T40RDR_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40RDQ_20261113T101603",
@@ -150,7 +225,7 @@
       "centroid_lat": 26.625019,
       "centroid_lon": 56.544567,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDQ_20261113T101603.SAFE/GRANULE/L2A_T40RDQ_A011430_20261113T065533/IMG_DATA/R10m/T40RDQ_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDQ_20261113T101603.SAFE/GRANULE/L2A_T40RDQ_A011430_20261113T065533/IMG_DATA/R10m/T40RDQ_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDQ_20261113T101603.SAFE/GRANULE/L2A_T40RDQ_A011430_20261113T065533/IMG_DATA/R10m/T40RDQ_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40RDP_20261113T101603",
@@ -165,7 +240,7 @@
       "centroid_lat": 25.722486,
       "centroid_lon": 56.548136,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DP/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDP_20261113T101603.SAFE/GRANULE/L2A_T40RDP_A011430_20261113T065533/IMG_DATA/R10m/T40RDP_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DP/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDP_20261113T101603.SAFE/GRANULE/L2A_T40RDP_A011430_20261113T065533/IMG_DATA/R10m/T40RDP_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/DP/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RDP_20261113T101603.SAFE/GRANULE/L2A_T40RDP_A011430_20261113T065533/IMG_DATA/R10m/T40RDP_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40RCR_20261113T101603",
@@ -180,7 +255,7 @@
       "centroid_lat": 27.521054,
       "centroid_lon": 55.533738,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CR/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCR_20261113T101603.SAFE/GRANULE/L2A_T40RCR_A011430_20261113T065533/IMG_DATA/R10m/T40RCR_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CR/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCR_20261113T101603.SAFE/GRANULE/L2A_T40RCR_A011430_20261113T065533/IMG_DATA/R10m/T40RCR_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CR/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCR_20261113T101603.SAFE/GRANULE/L2A_T40RCR_A011430_20261113T065533/IMG_DATA/R10m/T40RCR_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40RCQ_20261113T101603",
@@ -195,7 +270,7 @@
       "centroid_lat": 26.618359,
       "centroid_lon": 55.540118,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCQ_20261113T101603.SAFE/GRANULE/L2A_T40RCQ_A011430_20261113T065533/IMG_DATA/R10m/T40RCQ_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCQ_20261113T101603.SAFE/GRANULE/L2A_T40RCQ_A011430_20261113T065533/IMG_DATA/R10m/T40RCQ_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CQ/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCQ_20261113T101603.SAFE/GRANULE/L2A_T40RCQ_A011430_20261113T065533/IMG_DATA/R10m/T40RCQ_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     },
     {
       "scene_id": "S2C_MSIL2A_20261113T065121_R020_T40RCP_20261113T101603",
@@ -210,22 +285,7 @@
       "centroid_lat": 25.716087,
       "centroid_lon": 55.551405,
       "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CP/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCP_20261113T101603.SAFE/GRANULE/L2A_T40RCP_A011430_20261113T065533/IMG_DATA/R10m/T40RCP_20261113T065121_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CP/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCP_20261113T101603.SAFE/GRANULE/L2A_T40RCP_A011430_20261113T065533/IMG_DATA/R10m/T40RCP_20261113T065121_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
-    },
-    {
-      "scene_id": "S2C_MSIL2A_20261112T155521_R011_T17PNK_20261112T195814",
-      "corridor_id": "panama_canal",
-      "sensor_type": "OPTICAL_SENTINEL2",
-      "observation_date": "2026-11-12",
-      "timestamp_utc": "2026-11-12T15:55:21.025000+00:00",
-      "platform": "Sentinel-2C",
-      "mgrs_or_orbit": "17PNK",
-      "cloud_cover_pct": 23.39,
-      "h3_coverage_count": 1,
-      "centroid_lat": 8.54965,
-      "centroid_lon": -80.500727,
-      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/NK/2026/11/12/S2C_MSIL2A_20261112T155521_N0513_R011_T17PNK_20261112T195814.SAFE/GRANULE/L2A_T17PNK_A011421_20261112T160037/IMG_DATA/R10m/T17PNK_20261112T155521_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/NK/2026/11/12/S2C_MSIL2A_20261112T155521_N0513_R011_T17PNK_20261112T195814.SAFE/GRANULE/L2A_T17PNK_A011421_20261112T160037/IMG_DATA/R10m/T17PNK_20261112T155521_TCI_10m.tif?st=2026-11-13T13%3A22%3A48Z&se=2026-11-14T14%3A07%3A48Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-14T09%3A34%3A41Z&ske=2026-11-21T09%3A34%3A41Z&sks=b&skv=2025-07-05&sig=9b8aEUiVHAtvBXngYi0Gc1UVGpzTpGCdl9oYtRsgF%2BM%3D"
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/40/R/CP/2026/11/13/S2C_MSIL2A_20261113T065121_N0513_R020_T40RCP_20261113T101603.SAFE/GRANULE/L2A_T40RCP_A011430_20261113T065533/IMG_DATA/R10m/T40RCP_20261113T065121_TCI_10m.tif?st=2026-11-14T13%3A49%3A25Z&se=2026-11-15T14%3A34%3A25Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-15T13%3A14%3A52Z&ske=2026-11-22T13%3A14%3A52Z&sks=b&skv=2025-07-05&sig=ah8TMjyd28bHelGLamk6Ek2M2L4ri/wwhBW5bbnuA/k%3D"
     }
   ]
 }

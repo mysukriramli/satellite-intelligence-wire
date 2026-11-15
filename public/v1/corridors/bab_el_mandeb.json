@@ -7,7 +7,53 @@
     44.0,
     14.0
   ],
-  "updated_at_utc": "2026-11-14T13:22:46.794032+00:00",
-  "recent_passes_count": 0,
-  "scenes": []
+  "updated_at_utc": "2026-11-15T13:49:22.344326+00:00",
+  "recent_passes_count": 3,
+  "scenes": [
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261115T025949_20261115T030014_005472_00A745",
+      "corridor_id": "bab_el_mandeb",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-15",
+      "timestamp_utc": "2026-11-15T03:00:01.693944+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 11.291758,
+      "centroid_lon": 42.167452,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T025949_20261115T030014_005472_00A745&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261115T025924_20261115T025949_005472_00A745",
+      "corridor_id": "bab_el_mandeb",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-15",
+      "timestamp_utc": "2026-11-15T02:59:36.694140+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 12.800604,
+      "centroid_lon": 42.478124,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T025924_20261115T025949_005472_00A745&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1D_IW_GRDH_1SDV_20261115T025859_20261115T025924_005472_00A745",
+      "corridor_id": "bab_el_mandeb",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-15",
+      "timestamp_utc": "2026-11-15T02:59:11.694307+00:00",
+      "platform": "sentinel-1d",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 14.311305,
+      "centroid_lon": 42.777519,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T025859_20261115T025924_005472_00A745&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    }
+  ]
 }
