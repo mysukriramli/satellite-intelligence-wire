@@ -7,68 +7,7 @@
     104.5,
     6.0
   ],
-  "updated_at_utc": "2026-11-17T15:51:32.723770+00:00",
-  "recent_passes_count": 4,
-  "scenes": [
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261115T224745_20261115T224810_005484_00A7B0",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-15",
-      "timestamp_utc": "2026-11-15T22:47:57.932192+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_18_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 0.327477,
-      "centroid_lon": 103.686413,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T224745_20261115T224810_005484_00A7B0&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261115T224720_20261115T224745_005484_00A7B0",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-15",
-      "timestamp_utc": "2026-11-15T22:47:32.932207+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_18_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 1.837436,
-      "centroid_lon": 104.002217,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T224720_20261115T224745_005484_00A7B0&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261115T224655_20261115T224720_005484_00A7B0",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-15",
-      "timestamp_utc": "2026-11-15T22:47:07.932218+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_18_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 3.347533,
-      "centroid_lon": 104.315853,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T224655_20261115T224720_005484_00A7B0&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    },
-    {
-      "scene_id": "S1D_IW_GRDH_1SDV_20261115T224626_20261115T224655_005484_00A7B0",
-      "corridor_id": "strait_of_malacca",
-      "sensor_type": "RADAR_SAR_SENTINEL1",
-      "observation_date": "2026-11-15",
-      "timestamp_utc": "2026-11-15T22:46:40.787632+00:00",
-      "platform": "sentinel-1d",
-      "mgrs_or_orbit": "ORBIT_18_descending",
-      "cloud_cover_pct": 0.0,
-      "h3_coverage_count": 1,
-      "centroid_lat": 4.987221,
-      "centroid_lon": 104.653801,
-      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
-      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1D_IW_GRDH_1SDV_20261115T224626_20261115T224655_005484_00A7B0&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
-    }
-  ]
+  "updated_at_utc": "2026-11-18T15:30:04.954197+00:00",
+  "recent_passes_count": 0,
+  "scenes": []
 }
