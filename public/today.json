@@ -1,7 +1,7 @@
 {
-  "date": "2026-11-18",
-  "generated_at_utc": "2026-11-18T15:30:04.954197+00:00",
-  "new_scenes_ingested": 9,
-  "total_monitored_scenes": 10,
-  "deltas_detected": 9
+  "date": "2026-11-19",
+  "generated_at_utc": "2026-11-19T15:38:12.390496+00:00",
+  "new_scenes_ingested": 15,
+  "total_monitored_scenes": 21,
+  "deltas_detected": 15
 }

@@ -7,7 +7,23 @@
     104.5,
     6.0
   ],
-  "updated_at_utc": "2026-11-18T15:30:04.954197+00:00",
-  "recent_passes_count": 0,
-  "scenes": []
+  "updated_at_utc": "2026-11-19T15:38:12.390496+00:00",
+  "recent_passes_count": 1,
+  "scenes": [
+    {
+      "scene_id": "S1C_IW_GRDH_1SDV_20261118T114107_20261118T114136_010390_014C3C",
+      "corridor_id": "strait_of_malacca",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-18",
+      "timestamp_utc": "2026-11-18T11:41:22.275432+00:00",
+      "platform": "sentinel-1c",
+      "mgrs_or_orbit": "ORBIT_142_ascending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 1.752139,
+      "centroid_lon": 98.947826,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1C_IW_GRDH_1SDV_20261118T114107_20261118T114136_010390_014C3C&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    }
+  ]
 }
