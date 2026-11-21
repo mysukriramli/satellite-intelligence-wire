@@ -1,5 +1,5 @@
 # Satellite Intelligence Wire
-> Last Sync: 2026-11-21T14:30:48.309811+00:00 UTC
+> Last Sync: 2026-11-21T14:48:26.073541+00:00 UTC
 > Optimization: Sensor-fused optical and Synthetic Aperture Radar (SAR) telemetry with multi-cell H3 spatial indexing.
 
 ## Monitored Maritime Chokepoints & Recent Passes
