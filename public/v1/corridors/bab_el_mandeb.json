@@ -7,7 +7,38 @@
     44.0,
     14.0
   ],
-  "updated_at_utc": "2026-11-20T15:17:52.619205+00:00",
-  "recent_passes_count": 0,
-  "scenes": []
+  "updated_at_utc": "2026-11-21T14:30:48.309811+00:00",
+  "recent_passes_count": 2,
+  "scenes": [
+    {
+      "scene_id": "S1C_IW_GRDH_1SDV_20261121T025927_20261121T025952_010429_014D81",
+      "corridor_id": "bab_el_mandeb",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-21",
+      "timestamp_utc": "2026-11-21T02:59:39.920067+00:00",
+      "platform": "sentinel-1c",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 11.82169,
+      "centroid_lon": 42.282079,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1C_IW_GRDH_1SDV_20261121T025927_20261121T025952_010429_014D81&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    },
+    {
+      "scene_id": "S1C_IW_GRDH_1SDV_20261121T025858_20261121T025927_010429_014D81",
+      "corridor_id": "bab_el_mandeb",
+      "sensor_type": "RADAR_SAR_SENTINEL1",
+      "observation_date": "2026-11-21",
+      "timestamp_utc": "2026-11-21T02:59:12.776570+00:00",
+      "platform": "sentinel-1c",
+      "mgrs_or_orbit": "ORBIT_6_descending",
+      "cloud_cover_pct": 0.0,
+      "h3_coverage_count": 1,
+      "centroid_lat": 13.460885,
+      "centroid_lon": 42.613531,
+      "canonical_asset_href": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png",
+      "thumbnail_url": "https://planetarycomputer.microsoft.com/api/data/v1/item/preview.png?collection=sentinel-1-grd&item=S1C_IW_GRDH_1SDV_20261121T025858_20261121T025927_010429_014D81&assets=vv&assets=vh&expression=vv;vh;vv%2Fvh&rescale=0,600&rescale=0,270&rescale=0,9&asset_as_band=True&tile_format=png&format=png"
+    }
+  ]
 }
