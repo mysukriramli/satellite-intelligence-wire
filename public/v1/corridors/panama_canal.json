@@ -7,7 +7,38 @@
     -79.4,
     9.4
   ],
-  "updated_at_utc": "2026-11-22T14:26:52.450575+00:00",
-  "recent_passes_count": 0,
-  "scenes": []
+  "updated_at_utc": "2026-11-23T17:45:43.201607+00:00",
+  "recent_passes_count": 2,
+  "scenes": [
+    {
+      "scene_id": "S2C_MSIL2A_20261122T155521_R011_T17PPL_20261122T184105",
+      "corridor_id": "panama_canal",
+      "sensor_type": "OPTICAL_SENTINEL2",
+      "observation_date": "2026-11-22",
+      "timestamp_utc": "2026-11-22T15:55:21.025000+00:00",
+      "platform": "Sentinel-2C",
+      "mgrs_or_orbit": "17PPL",
+      "cloud_cover_pct": 9.81,
+      "h3_coverage_count": 1,
+      "centroid_lat": 9.453426,
+      "centroid_lon": -79.914409,
+      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PL/2026/11/22/S2C_MSIL2A_20261122T155521_N0513_R011_T17PPL_20261122T184105.SAFE/GRANULE/L2A_T17PPL_A011564_20261122T155522/IMG_DATA/R10m/T17PPL_20261122T155521_TCI_10m.tif",
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PL/2026/11/22/S2C_MSIL2A_20261122T155521_N0513_R011_T17PPL_20261122T184105.SAFE/GRANULE/L2A_T17PPL_A011564_20261122T155522/IMG_DATA/R10m/T17PPL_20261122T155521_TCI_10m.tif?st=2026-11-22T17%3A45%3A44Z&se=2026-11-23T18%3A30%3A44Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-23T17%3A42%3A46Z&ske=2026-11-30T17%3A42%3A46Z&sks=b&skv=2025-07-05&sig=xm6dNLbOtC77NxOiVkY8n7kLzRAPSVuXbe9wgyLQRUs%3D"
+    },
+    {
+      "scene_id": "S2C_MSIL2A_20261122T155521_R011_T17PNL_20261122T184105",
+      "corridor_id": "panama_canal",
+      "sensor_type": "OPTICAL_SENTINEL2",
+      "observation_date": "2026-11-22",
+      "timestamp_utc": "2026-11-22T15:55:21.025000+00:00",
+      "platform": "Sentinel-2C",
+      "mgrs_or_orbit": "17PNL",
+      "cloud_cover_pct": 19.88,
+      "h3_coverage_count": 1,
+      "centroid_lat": 9.454172,
+      "centroid_lon": -80.49935,
+      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/NL/2026/11/22/S2C_MSIL2A_20261122T155521_N0513_R011_T17PNL_20261122T184105.SAFE/GRANULE/L2A_T17PNL_A011564_20261122T155522/IMG_DATA/R10m/T17PNL_20261122T155521_TCI_10m.tif",
+      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/NL/2026/11/22/S2C_MSIL2A_20261122T155521_N0513_R011_T17PNL_20261122T184105.SAFE/GRANULE/L2A_T17PNL_A011564_20261122T155522/IMG_DATA/R10m/T17PNL_20261122T155521_TCI_10m.tif?st=2026-11-22T17%3A45%3A44Z&se=2026-11-23T18%3A30%3A44Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-23T17%3A42%3A46Z&ske=2026-11-30T17%3A42%3A46Z&sks=b&skv=2025-07-05&sig=xm6dNLbOtC77NxOiVkY8n7kLzRAPSVuXbe9wgyLQRUs%3D"
+    }
+  ]
 }
