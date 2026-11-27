@@ -7,53 +7,7 @@
     -79.4,
     9.4
   ],
-  "updated_at_utc": "2026-11-26T16:40:23.016720+00:00",
-  "recent_passes_count": 3,
-  "scenes": [
-    {
-      "scene_id": "S2A_MSIL2A_20261124T155531_R011_T17PPL_20261124T202207",
-      "corridor_id": "panama_canal",
-      "sensor_type": "OPTICAL_SENTINEL2",
-      "observation_date": "2026-11-24",
-      "timestamp_utc": "2026-11-24T15:55:31.024000+00:00",
-      "platform": "Sentinel-2A",
-      "mgrs_or_orbit": "17PPL",
-      "cloud_cover_pct": 11.98,
-      "h3_coverage_count": 1,
-      "centroid_lat": 9.453438,
-      "centroid_lon": -79.9179,
-      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PL/2026/11/24/S2A_MSIL2A_20261124T155531_N0513_R011_T17PPL_20261124T202207.SAFE/GRANULE/L2A_T17PPL_A059668_20261124T155528/IMG_DATA/R10m/T17PPL_20261124T155531_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PL/2026/11/24/S2A_MSIL2A_20261124T155531_N0513_R011_T17PPL_20261124T202207.SAFE/GRANULE/L2A_T17PPL_A059668_20261124T155528/IMG_DATA/R10m/T17PPL_20261124T155531_TCI_10m.tif?st=2026-11-25T16%3A40%3A24Z&se=2026-11-26T17%3A25%3A24Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-26T16%3A34%3A33Z&ske=2026-12-03T16%3A34%3A33Z&sks=b&skv=2025-07-05&sig=3ntRmgMTvN6ZSHVdU6nDkhgMB4JYKwEdjwfrk6RyqzY%3D"
-    },
-    {
-      "scene_id": "S2B_MSIL2A_20261124T154549_R111_T17PPL_20261124T192023",
-      "corridor_id": "panama_canal",
-      "sensor_type": "OPTICAL_SENTINEL2",
-      "observation_date": "2026-11-24",
-      "timestamp_utc": "2026-11-24T15:45:49.024000+00:00",
-      "platform": "Sentinel-2B",
-      "mgrs_or_orbit": "17PPL",
-      "cloud_cover_pct": 13.6,
-      "h3_coverage_count": 1,
-      "centroid_lat": 9.451505,
-      "centroid_lon": -79.588341,
-      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PL/2026/11/24/S2B_MSIL2A_20261124T154549_N0513_R111_T17PPL_20261124T192023.SAFE/GRANULE/L2A_T17PPL_A050759_20261124T154720/IMG_DATA/R10m/T17PPL_20261124T154549_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PL/2026/11/24/S2B_MSIL2A_20261124T154549_N0513_R111_T17PPL_20261124T192023.SAFE/GRANULE/L2A_T17PPL_A050759_20261124T154720/IMG_DATA/R10m/T17PPL_20261124T154549_TCI_10m.tif?st=2026-11-25T16%3A40%3A24Z&se=2026-11-26T17%3A25%3A24Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-26T16%3A34%3A33Z&ske=2026-12-03T16%3A34%3A33Z&sks=b&skv=2025-07-05&sig=3ntRmgMTvN6ZSHVdU6nDkhgMB4JYKwEdjwfrk6RyqzY%3D"
-    },
-    {
-      "scene_id": "S2B_MSIL2A_20261124T154549_R111_T17PPK_20261124T192023",
-      "corridor_id": "panama_canal",
-      "sensor_type": "OPTICAL_SENTINEL2",
-      "observation_date": "2026-11-24",
-      "timestamp_utc": "2026-11-24T15:45:49.024000+00:00",
-      "platform": "Sentinel-2B",
-      "mgrs_or_orbit": "17PPK",
-      "cloud_cover_pct": 20.18,
-      "h3_coverage_count": 1,
-      "centroid_lat": 8.547384,
-      "centroid_lon": -79.591913,
-      "canonical_asset_href": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PK/2026/11/24/S2B_MSIL2A_20261124T154549_N0513_R111_T17PPK_20261124T192023.SAFE/GRANULE/L2A_T17PPK_A050759_20261124T154720/IMG_DATA/R10m/T17PPK_20261124T154549_TCI_10m.tif",
-      "thumbnail_url": "https://sentinel2l2a01.blob.core.windows.net/sentinel2-l2/17/P/PK/2026/11/24/S2B_MSIL2A_20261124T154549_N0513_R111_T17PPK_20261124T192023.SAFE/GRANULE/L2A_T17PPK_A050759_20261124T154720/IMG_DATA/R10m/T17PPK_20261124T154549_TCI_10m.tif?st=2026-11-25T16%3A40%3A24Z&se=2026-11-26T17%3A25%3A24Z&sp=rl&sv=2025-07-05&sr=c&skoid=9c8ff44a-6a2c-4dfb-b298-1c9212f64d9a&sktid=72f988bf-86f1-41af-91ab-2d7cd011db47&skt=2026-11-26T16%3A34%3A33Z&ske=2026-12-03T16%3A34%3A33Z&sks=b&skv=2025-07-05&sig=3ntRmgMTvN6ZSHVdU6nDkhgMB4JYKwEdjwfrk6RyqzY%3D"
-    }
-  ]
+  "updated_at_utc": "2026-11-27T16:25:41.084963+00:00",
+  "recent_passes_count": 0,
+  "scenes": []
 }
